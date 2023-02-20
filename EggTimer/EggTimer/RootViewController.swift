@@ -52,7 +52,6 @@ final class RootViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor(red: 203/255, green: 242/255, blue: 252/255, alpha: 1)
         setupView()
-        
     }
     
     //MARK: Private methods

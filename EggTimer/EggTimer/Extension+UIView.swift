@@ -50,6 +50,8 @@ extension UIButton {
         }()
         let button = UIButton(type: .custom)
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.setBackgroundImage(UIImage(named: "soft_egg"), for: .normal)
+        button.subviews.first?.contentMode = .scaleAspectFit
         button.setTitle(title, for: .normal)
         button.setTitleColor(.darkGray, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18.0)
